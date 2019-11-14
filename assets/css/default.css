@@ -1,0 +1,238 @@
+/*
+@import url("http://fonts.googleapis.com/css?family=Ubuntu");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400");
+*/
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Arkham CSS - Layout */
+
+body {
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  background-color: #F2F2F2;
+/*  #fdfdfd
+    background: url('../img/wallpaper_002.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center; */
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.content {
+  max-width: 1100px;
+  padding: 0 15px;
+  font-size: 16px;
+  color: #555;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 94%;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background:#F0F0F0;
+  border:0px solid #CCC;
+  text-align: center;
+}
+
+.footer a {
+  color: rgb(122, 156, 201);
+  text-decoration: none;
+}
+
+.header {
+  height:40px;
+  background:#F0F0F0;
+  border:0px solid #CCC;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin:0px auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+.article {
+  -moz-column-count: 2;
+  -moz-column-gap: 25px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 25px;
+  column-count: 2;
+  column-gap: 25px;
+}
+
+.name {
+color: #00F500;
+}
+
+/* Arkham CSS - Links */
+
+.links {
+  font-size: 14px;
+}
+
+p {
+  color: #000000;
+}
+
+/* Arkham CSS - Links */
+/* #f56c11; - Fall Colors */
+
+a {
+  color: #29ABE2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+a:active {
+  color: #29ABE2;
+}
+
+.links_work {
+  color: #f56c11;
+}
+
+
+/* Arkham CSS - Information Banners */
+
+.info {
+  margin-bottom: 15px;
+  padding: 4px 12px;
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+/* Arkham CSS - Tables */
+
+table {
+  table-layout: fixed;
+  width: 100px;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  border-collapse: collapse;
+  color: #000000;
+  align-self: baseline;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px 4px;
+}
+
+
+/* Arkham CSS - Input */
+
+input[type=text], select {
+font-family: 'Lucida Grande', sans-serif;
+  font-size: 14px;
+  width: 25%;
+  padding: 12px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #ef9d39;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #5b66f6;
+}
+
+input[type=text]:focus {
+border: 1px solid #555;
+}
+
+/* Arkham CSS - Link Box */
+
+.link_box_left {
+  height:30px;
+  width: 50px;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin:0px auto;
+  text-align: right;
+}
+
+.link_box_right {
+  height:30px;
+  width: 800px;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin:0px auto;
+  text-align: left;
+}
+
+.wallpaper_games {
+  background-image: url("/assets/img/wallpaper_001.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 973px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.links {
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.links td, .links th {
+  border: 1px solid #ddd;
+   text-align: left;
+  padding: 8px;
+}
+
+.links tr:nth-child(even){background-color: #f2f2f2;}
+
+.links tr:hover {background-color: #ddd;}
+
+.links th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ef9d39;
+  color: white;
+}

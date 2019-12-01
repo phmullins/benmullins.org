@@ -5,61 +5,62 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Homepage">
 <meta name="author" content="Patrick H. Mullins">
-<title>Benjamin P. Mullins</title>
-<link href="assets/css/default.css" rel="stylesheet" type="text/css">
+<title>Ben's Google Links & Pictures</title>
+<link href="assets/css/arkham.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
-</head>
-<body>
 
-<div class="content"><br>
+<script type="text/javascript">
+  function dosearch() {
+  var sf=document.searchform;
+  var submitto = sf.sengines.options[sf.sengines.selectedIndex].value + escape(sf.searchterms.value);
+  window.location.href = submitto;
+  return false;
+  }
+</script>
+
+</head>
+<body OnLoad="document.search.q.focus();">
+
+<div class="content">
 <div class="center">
 
-<h3>Homepage of <b class="name">Benjamin P. Mullins</b>.<br> 
-4th Grader, Electronics Tinkerer, Computer Kid, Future Apple Engineer</h3><br><br>
+<center>
 
-<h4>September 22nd, 2019 - Ceder Crest 4th Grade</h4>
+<h2>Hello Benjamin!</h2>
 
-<a href="assets/img/2019-09-22_school_4th_grade_ben_01.jpg">
-<img src="assets/img/2019-09-22_school_4th_grade_ben_01.jpg" width="640" height="480"></a><br><br>
+<form name="searchform" onSubmit="return dosearch();">
+  <input type="text" name="searchterms">
+  <select name="sengines">
+  <option value="https://smile.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=">Amazon</option>
+  <option value="https://www.artstation.com/search?q=">ArtStation</options>
+  <option value="https://bandcamp.com/search?q=">Bandcamp</option>
+  <option value="https://www.bing.com/search?q=">Bing</option>
+  <option value="https://dribbble.com/search?q=">Dribble</option>
+  <option value="https://start.duckduckgo.com/?q=" selected>DuckDuckGo</option>
+  <option value="https://www.thefreedictionary.com/">Free Dictionary</option>
+  <option value="https://www.webster-dictionary.org/definition/">Webster Dictionary</option>
+  <option value="https://www.freethesaurus.com/">Free Thesaurus</option>
+  <option value="https://github.com/search?q=">GitHub</option>
+  <option value="https://www.google.com/search?q=">Google</option>
+  <option value="https://www.playstation.com/en-us/search/?q=">PlayStation</option>
+  <option value="https://search.yahoo.com/search?p=">Yahoo!</option>
+  <option value="https://www.youtube.com/results?search_query=">YouTube</option>
+  </select>
+  <input type="submit" name="SearchSubmit" value="Search">
+</form><br><br>
 
-<a href="assets/img/2019-09-22_school_4th_grade_ben_02.jpg">
-<img src="assets/img/2019-09-22_school_4th_grade_ben_02.jpg" width="640" height="480"></a><br><br>
+<img src="assets/img/iphonese.jpg">
+<img src="assets/img/motog4play.jpg">
+<img src="assets/img/razor.jpg"><br><br>
 
-<a href="assets/img/2019-09-22_school_4th_grade_ben_03.jpg">
-<img src="assets/img/2019-09-22_school_4th_grade_ben_03.jpg" width="360" height="480"></a><br><br>
- 
-<h4>August 30th, 2019 - Glasses!?</h4>
+<a href="photos.html">Pictures of Ben!</a>
 
-<a href="assets/img/2019-08-31_ben_glasses_01.jpg">
-<img src="assets/img/2019-08-31_ben_glasses_01.jpg" width="640" height="480"></a><br><br>
-<a href="assets/img/2019-08-31_ben_glasses_02.jpg">
-<img src="assets/img/2019-08-31_ben_glasses_02.jpg" width="640" height="480"></a><br>
-
-<h4>August 19th, 2019 - Gone Fishing</h4>
-
-<a href="assets/img/2019-08-19_ben_fishing_01.jpg">
-<img src="assets/img/2019-08-19_ben_fishing_01.jpg" width="640" height="480"></a><br><br>
-<a href="assets/img/2019-08-19_ben_fishing_02.jpg">
-<img src="assets/img/2019-08-19_ben_fishing_02.jpg" width="640" height="480"></a><br>
-
-<h4>August 15th, 2019 - John Ball Zoo</h4>
-
-<a href="assets/img/2019-08-15_ben_zoo.jpg">
-<img src="assets/img/2019-08-15_ben_zoo.jpg" width="640" height="480"></a><br><br>
-
-<h4>July 30th, 2019 - Haircut</h4>
-
-<a href="assets/img/2019-07-30_ben_haircut.jpg">
-<img src="assets/img/2019-07-30_ben_haircut.jpg" width="480" height="640"></a><br><br>
-
-<h4>June 04th, 2019 - Ceder Crest School Picnic</h4>
-
-<a href="assets/img/2019-06-04_ben_school_picnic.jpg">
-<img src="assets/img/2019-06-04_ben_school_picnic.jpg" width="640" height="480"></a><br><br>
+<br><br>Created by Ben and Ben's Dad.
+</center>
 
 </div>
 </div>
+
 </body>
 </html>

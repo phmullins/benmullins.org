@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5e2ac212-a9ce-47bd-a0de-a4f5ad9f8784/deploy-status)](https://app.netlify.com/sites/stoic-lichterman-46d582/deploys)
+
 ### Homepage of Benjamin P. Mullins
 
 My young son, Benjamin, decided that he simply had to have a website.

@@ -1,7 +1,5 @@
-/*
 @import url("http://fonts.googleapis.com/css?family=Ubuntu");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400");
-*/
 
 html {
   height: 100%;
@@ -17,7 +15,7 @@ html {
 /* Arkham CSS - Layout */
 
 body {
-  font-family: 'Lucida Grande', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   text-rendering: optimizeLegibility;
   background-color: #F2F2F2;
